@@ -11,19 +11,27 @@ int main(){
 
  for (int i = 0; i < 10; i++) {
     for (int j = 0; j < 10; j++) {
-       tabuleiro[i][j] = 0; // Inicializa o tabuleiro com 0
+       tabuleiro[i][j] = 0;        // Inicializa o tabuleiro com 0
       }  
   }
+     // Define os navios na posição horizontal e vertical
+
+   tabuleiro[2][3] = 3; tabuleiro[2][4] = 3; tabuleiro[2][5] = 3;
+   tabuleiro[5][6] = 3; tabuleiro[6][6] = 3; tabuleiro[7][6] = 3;   
+
+
      // Imprime o cabeçalho das colunas
-  printf("   ");     // Espaço para alinhar com as letras das linhas   
+
+  printf("   ");         // Espaço para alinhar com as letras das linhas   
   for (int j = 1; j <= 10; j++) {
     printf("%d ", j);
   }
      printf(" \n");
 
     // Imprime tabuleiro com letras e números
+
    for (int i = 0; i < 10; i++)  {
-    printf("%2c ", linha[i]);          // Imprime a letra da linha
+    printf("%2c ", linha[i]);               // Imprime a letra da linha
       for (int j = 0; j < 10; j++) {
         printf("%d ", tabuleiro[i][j]);     // imprime os valores da matrizes
       }

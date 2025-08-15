@@ -24,7 +24,7 @@ int main(){
   // Imprime o cabeçalho das colunas
 
   printf("   ");                   // Espaço para alinhar com as letras das linhas   
-  for (int j = 0; j <= 10; j++) {
+  for (int j = 1; j <= 10; j++) {
     printf("%d ", j);
   }
      printf(" \n");

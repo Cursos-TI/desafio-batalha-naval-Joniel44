@@ -16,8 +16,9 @@ int main(){
   }
      // Define os navios na posição horizontal e vertical
 
-   tabuleiro[2][3] = 3; tabuleiro[2][4] = 3; tabuleiro[2][5] = 3;
-   tabuleiro[5][6] = 3; tabuleiro[6][6] = 3; tabuleiro[7][6] = 3;   
+   tabuleiro[3][3] = 3; tabuleiro[3][4] = 3; tabuleiro[3][5] = 3;
+   tabuleiro[4][0] = 3; tabuleiro[5][0] = 3; tabuleiro[6][0] = 3;
+   tabuleiro[5][6] = 3; tabuleiro[6][5] = 3; tabuleiro[4][7] = 3;  
 
 
      // Imprime o cabeçalho das colunas
